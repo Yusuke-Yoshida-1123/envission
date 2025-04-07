@@ -1,0 +1,10 @@
+.contact header {
+  background-image: url(../img/Group\ 46\ \(1\).png);
+}
+.contact main {
+  height: 80vh;
+  padding-block: 34vh;
+}
+.contact .main-title {
+  font-size: 40px;
+}

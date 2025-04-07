@@ -1,0 +1,40 @@
+footer {
+  height: 60vh;
+  background-color: white;
+  padding-inline: 5%;
+  padding-block: 3%;
+}
+footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 90%;
+}
+footer section .footer-logo {
+  width: 30%;
+  height: 20%;
+  border: 1px solid blue;
+}
+footer section .footer-logo img {
+  width: 100%;
+  border: 1px solid red;
+}
+footer section ol {
+  margin-top: 5%;
+  list-style: none;
+  width: 50%;
+}
+footer section ol li {
+  margin-bottom: 10px;
+}
+footer section ol li a {
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+}
+footer p {
+  text-align: center;
+}
